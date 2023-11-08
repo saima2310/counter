@@ -1,4 +1,4 @@
-// Lifecycle hooks provided by Snabbdom for insertion, update, and removal
+
 export const createLifecycleHooks = (onCreate, onUpdate, onRemove) => {
     return {
       create: () => onCreate(),
